@@ -34,54 +34,38 @@ Escribir un resumen de los pasos: limpieza, exploración, modelado supervisado y
 
 Acá listar las librerías principales de Python u otras herramientas que se usaron en el proyecto.
 
-### Glosario de los features
-## **Tipo_geoforma**: esta columna agrupa a cada una de las geoformas
+## Glosario de los features
+A continuación se detallan los 37 campos que componen la base de datos.
+1. Provincia
+2. Cuenca
+3. Subcuenca
+4. Código cuenca
+5. ID_local
+6. ### *Tipo_geoforma*: esta columna agrupa a cada una de las geoformas inventariadas en base a su tipo principal. ç
 
-inventariadas en base a su tipo principal. Los tipos de geoforma pueden ser:
-**GD-Glaciar descubierto**: cuerpo de hielo permanente generado sobre la superficie
-terrestre a partir de la compactación y recristalización de la nieve y/o hielo, sin
-cobertura detrítica significativa, que sea visible por períodos de al menos 2 años, con
-evidencias de movimiento por gravedad (grietas, ojivas, morenas medias), y de un área
-mayor o igual a 0,01 km2 (una hectárea). En la actualización si bien se mantuvo la
-forma de identificación en la base de datos en los análisis se incorporó el término hielo
-descubierto para describir esta categoría.
+Los tipos de geoforma pueden ser:
 
-**MN-Manchón de nieve/glaciarete:** pequeñas masas de nieve y hielo de forma
-indefinida. Se localizan generalmente en depresiones, lechos de ríos y pendientes
-protegidas. En general se desarrollan a partir de la nieve barrida por el viento,
-avalanchas y/o varios años de fuertes acumulaciones. En general no presentan
-patrones de flujo visibles, y existen al menos por dos años consecutivos. Los
-manchones de nieve permanentes/glaciaretes son reservas significativas de agua en
-estado sólido y por ello fueron incluidos en el inventario.
+**GD-Glaciar descubierto**: cuerpo de hielo permanente generado sobre la superficie terrestre a partir de la compactación y recristalización de la nieve y/o hielo, sin cobertura detrítica significativa, que sea visible por períodos de al menos 2 años, con evidencias de movimiento por gravedad (grietas, ojivas, morenas medias), y de un área mayor o igual a 0,01 km2 (una hectárea).
 
-**GC-Glaciar cubierto:** cuerpo de hielo permanente generado sobre la superficie
-terrestre a partir de la compactación y recristalización de la nieve y/o hielo, con una
-cobertura detrítica significativa, que sea visible por períodos de al menos 2 años, con
-evidencias de movimiento por gravedad (grietas, ojivas, morenas medias), y de un área
-mayor o igual a 0,01 km2 (una hectárea). En la actualización si bien se mantuvo la
-forma de identificación en la base de datos en los análisis se incorporó el término hielo
-cubierto para describir esta categoría.
+**MN-Manchón de nieve/glaciarete**: pequeñas masas de nieve y hielo de forma indefinida. Se localizan generalmente en depresiones, lechos de ríos y pendientes protegidas.
 
-**GE-Glaciar de escombros:** cuerpo de detrito congelado y hielo, con evidencias de
-movimiento por acción de la gravedad y deformación plástica del permafrost, cuyo
-origen está relacionado con los procesos criogénicos asociados con suelo
-permanentemente congelado y con hielo subterráneo o con el hielo proveniente de
-glaciares descubiertos y cubiertos, y de un área mayor o igual que 0,01 km2
-(una hectárea). Los glaciares de escombros dependen fuertemente del aporte de detritos,
-nieve y hielo.
+**GC-Glaciar cubierto**: cuerpo de hielo permanente generado sobre la superficie terrestre a partir de la compactación y recristalización de la nieve y/o hielo, con una cobertura detrítica significativa, que sea visible por períodos de al menos 2 años, con evidencias de movimiento por gravedad (grietas, ojivas, morenas medias), y de un área mayor o igual a 0,01 km2 (una hectárea).
 
-Los glaciares de escombros se pueden clasificar por su grado de actividad en activos
-(GEA), inactivos (GEI) y fósiles (GEF) (Haeberli, 1985; Ikeda, 2004). Los glaciares de
-escombros activos presentan frentes abruptos (>35º) con lineamientos de flujo,
-crestas y surcos longitudinales y transversales bien definidos. Una vez que dejan de
-moverse se llaman inactivos y aparecen como geoformas colapsadas con menor 
-pendiente en el frente (<35º), también puede aparecer cierta cobertura vegetal. El
-cuerpo de sedimentos que permanece una vez que el hielo se ha derretido se llama
-glaciar de escombros fósil (Barsch, 1978; Brenning, 2005; Trombotto Liaudat, 2002).
-Esta última categoría no ha sido incluida en el inventario por no tener importancia
-hidrológica.
+**GE-Glaciar de escombros**: cuerpo de detrito congelado y hielo, con evidencias de movimiento por acción de la gravedad y deformación plástica del permafrost, cuyo origen está relacionado con los procesos criogénicos asociados con suelo permanentemente congelado y con hielo subterráneo o con el hielo proveniente de glaciares descubiertos y cubiertos, y de un área mayor o igual que 0,01 km2 (una hectárea). Los glaciares de escombros se pueden clasificar por su grado de actividad en activos (GEA), inactivos (GEI) y fósiles (GEF).
 
-**GCGE-Glaciar cubierto con glaciar de escombros:** en los Andes Centrales existen numerosos casos en los que un sector de hielo cubierto por detritos se transforma gradualmente en un glaciar de escombros. En general es muy difícil identificar y determinar la posición del límite entre el hielo cubierto (ambiente glaciar) y el glaciar de escombros glacigénico (ambiente periglacial) a partir de sensores remotos, en particular si no se cuenta con información adicional proveniente de estudios detallados de campo. Por ello, en las tareas de inventario se ha utilizado una categoría nueva denominada glaciar cubierto con glaciar de escombros que incluye las porciones de
-hielo cubierto junto con el glaciar de escombros que se desarrolla a sus costados o en su porción terminal.
+**ND-No detectable**: masas de hielo identificadas en el primer inventario que disminuyeron significativamente su superficie o desaparecieron completamente. Estás áreas se caracterizan por ser susceptibles de volver a formar cuerpos de hielo/nieve perennes si las condiciones climáticas se tornan favorables. Esta categoría no estaba incluida en el primer ING.
+7. Clasificación Primaria: basada en el documento “Illustrated GLIMS Glacier Classification Manual” (Rau et al., 2005) preparado por el grupo de expertos de
+GLIMS http://www.glims.org/MapsAndDocs/assets/GLIMS_GlacierClassification-Manual_V1_2005-02-10.pdf
+    0. Incierto
+    1. Sábana de hielo continental
+    2. Campo de hielo
+    3. Calota de hielo
+    4. Glaciar de descarga
+    5. Glaciar de valle
+    6. Glaciar de montaña:
+    7. Manchón de nieve permanente o glaciarete
+    8. Barrera de hielo
+    9. Glaciar de escombros
+    10. Corriente de hielo
 
-**ND-No detectable:** masas de hielo identificadas en el primer inventario que disminuyeron significativamente su superficie o desaparecieron completamente. Estás áreas se caracterizan por ser susceptibles de volver a formar cuerpos de hielo/nieve perennes si las condiciones climáticas se tornan favorables.
+## Bibliografía
