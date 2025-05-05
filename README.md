@@ -1,2 +1,5 @@
 # Proyecto_final
-Bienvenidas a la última versión del proyecto final realizado por Brenda Gonzalez y Erika Pellegrini. Cualquier sugerencia es bien recibida.
+Bienvenidas al proyecto final realizado por Brenda Gonzalez y Erika Pellegrini. Cualquier sugerencia es bien recibida.
+Para poder visualizar cada pre-entrega tienen que ingresar a los branches.
+
+¡Muchas gracias!
