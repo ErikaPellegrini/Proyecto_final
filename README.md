@@ -41,7 +41,7 @@ A continuación se detallan los 37 campos que componen la base de datos.
 3. Subcuenca
 4. Código cuenca
 5. ID_local
-6. ### *Tipo_geoforma*: esta columna agrupa a cada una de las geoformas inventariadas en base a su tipo principal.
+6. Tipo_geoforma: esta columna agrupa a cada una de las geoformas inventariadas en base a su tipo principal.
 
 Los tipos de geoforma pueden ser:
 
@@ -54,6 +54,7 @@ Los tipos de geoforma pueden ser:
 **GE-Glaciar de escombros**: cuerpo de detrito congelado y hielo, con evidencias de movimiento por acción de la gravedad y deformación plástica del permafrost, cuyo origen está relacionado con los procesos criogénicos asociados con suelo permanentemente congelado y con hielo subterráneo o con el hielo proveniente de glaciares descubiertos y cubiertos, y de un área mayor o igual que 0,01 km2 (una hectárea). Los glaciares de escombros se pueden clasificar por su grado de actividad en activos (GEA), inactivos (GEI) y fósiles (GEF).
 
 **ND-No detectable**: masas de hielo identificadas en el primer inventario que disminuyeron significativamente su superficie o desaparecieron completamente. Estás áreas se caracterizan por ser susceptibles de volver a formar cuerpos de hielo/nieve perennes si las condiciones climáticas se tornan favorables. Esta categoría no estaba incluida en el primer ING.
+
 7. Clasificación Primaria: basada en el documento “Illustrated GLIMS Glacier Classification Manual” (Rau et al., 2005) preparado por el grupo de expertos de
 GLIMS http://www.glims.org/MapsAndDocs/assets/GLIMS_GlacierClassification-Manual_V1_2005-02-10.pdf
 
