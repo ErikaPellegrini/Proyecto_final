@@ -56,6 +56,7 @@ Los tipos de geoforma pueden ser:
 **ND-No detectable**: masas de hielo identificadas en el primer inventario que disminuyeron significativamente su superficie o desaparecieron completamente. Estás áreas se caracterizan por ser susceptibles de volver a formar cuerpos de hielo/nieve perennes si las condiciones climáticas se tornan favorables. Esta categoría no estaba incluida en el primer ING.
 7. Clasificación Primaria: basada en el documento “Illustrated GLIMS Glacier Classification Manual” (Rau et al., 2005) preparado por el grupo de expertos de
 GLIMS http://www.glims.org/MapsAndDocs/assets/GLIMS_GlacierClassification-Manual_V1_2005-02-10.pdf
+
 0. Incierto
 1. Sábana de hielo continental
 2. Campo de hielo
