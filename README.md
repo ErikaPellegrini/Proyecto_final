@@ -2,14 +2,14 @@
 Bienvenidas a la última versión del proyecto final realizado por Brenda Gonzalez y Erika Pellegrini. Cualquier sugerencia es bien recibida.
 
 ## Introducción
-
+- Escribirlo cuando ya tengamos la 2da pre-entrega (casi) terminada.
 - A partir del dataset descargado del Inventario Nacional de Glaciares (ING) 
-
 - con la finalidad de que los modelos generados a partir de ML puedan ser utilizados con datasets que involucren años consecutivos para poder desarrollar series de tiempo que permitan analizar el comportamiento de los glaciares argentinos a lo largo de los años a partir del cambio climático.
-- link de acceso: https://www.glaciaresargentinos.gob.ar/
+- 
 - Escribir una breve descripción del proyecto: qué problema se trabaja, en qué contexto se hace y qué tipo de técnicas de data science se aplican.
 
 ## Objetivo
+Se realizará un análisis exploratorio de los glaciares, glaciares cubiertos, glaciares de escombro y manchones de nieve que se encuentran en la región de los Andes Desértivos, Argentina. El objetivo principal es obtener patrones de relación entre tipo de geoforma, ubicación, áreas, alturas, para así análizar las relaciones entre variables según cuencas, provincias, alturas, etc. 
 
 Resumir en una o dos líneas cuál es el objetivo general del proyecto: predecir algo, segmentar clientes, entender un fenómeno, etc..
 
@@ -20,7 +20,10 @@ Resumir en una o dos líneas cuál es el objetivo general del proyecto: predecir
 
 ## Dataset utilizado
 
-- La elección del datasets se realizó en base al año en el que fueron obtenidos los datos, dandole prioridad a la información más actualizada. Por ese motivo fue que elegimos el área dónde se encuentra los Andes Desérticos. Los cuáles engloban a las provincias de Salta, Jujuy, Catamarca, La Rioja, Tucumán y San Juan. En estas provincias se pueden encontrar diferentes tipos de geoformas correspientes a las criósfera como:  
+- La elección del dataset llamado *glaciar_ing* se realizó en base al año en el que fueron obtenidos los datos, dandole prioridad a la información más actualizada. Por ese motivo fue que elegimos el área dónde se encuentra los Andes Desérticos. Los cuáles engloban a las provincias de Salta, Jujuy, Catamarca, La Rioja, Tucumán y San Juan. En estas provincias se pueden encontrar diferentes tipos de geoformas correspientes a las criósfera como:
+- link de acceso al dataset: https://www.glaciaresargentinos.gob.ar/
+- Se utilizó el diccionario de datos que se encuentra en el link proporcionado junto con el dataset. Los puntos más importantes del diccionario se detallan en el apartado "Glosario" dentro de este readme.
+  
 Indicar qué datos se usaron: nombre del dataset o fuente, link si corresponde, y si se usó algún diccionario de datos o referencia adicional.
 
 ## Estructura del repositorio
@@ -150,4 +153,4 @@ los hubiere) Se expresa en metros sobre el nivel del mar (msnm).
 los hubiere) Se expresa en metros sobre el nivel del mar (msnm).
 
 ## Bibliografía
-## Bibliografía
+IANIGLA-Inventario Nacional de Glaciares.2024. Informe de los Andes Desérticos: Jujuy-Salta-Tucumán-Catamarca-La Rioja-San Juan (Cuenca Río Jáchal). IANIGLA-CONICET, Ministerio de Ambiente y Desarrollo Sustentable de la Nación. 
