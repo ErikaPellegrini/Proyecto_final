@@ -69,5 +69,17 @@ GLIMS http://www.glims.org/MapsAndDocs/assets/GLIMS_GlacierClassification-Manual
  - 8. Barrera de hielo
  - 9. Glaciar de escombros
  - 10. Corriente de hielo
+  
+- `0.` Incierto  
+- `1.` Sábana de hielo continental  
+- `2.` Campo de hielo  
+- `3.` Calota de hielo  
+- `4.` Glaciar de descarga  
+- `5.` Glaciar de valle  
+- `6.` Glaciar de montaña  
+- `7.` Manchón de nieve permanente o glaciarete  
+- `8.` Barrera de hielo  
+- `9.` Glaciar de escombros  
+- `10.` Corriente de hielo  
 
 ## Bibliografía
