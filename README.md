@@ -15,7 +15,8 @@ Resumir en una o dos líneas cuál es el objetivo general del proyecto: predecir
 
 ## Integrantes
 
-Poner número de grupo y nombres de los integrantes.
+- Grupo 7
+- Integrantes: Brenda Gonzalez y Erika Pellegrini
 
 ## Dataset utilizado
 
