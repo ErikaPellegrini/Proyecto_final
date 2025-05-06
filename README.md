@@ -41,7 +41,7 @@ A continuación se detallan los 37 campos que componen la base de datos.
 3. Subcuenca
 4. Código cuenca
 5. ID_local
-6. ### *Tipo_geoforma*: esta columna agrupa a cada una de las geoformas inventariadas en base a su tipo principal. ç
+6. ### *Tipo_geoforma*: esta columna agrupa a cada una de las geoformas inventariadas en base a su tipo principal.
 
 Los tipos de geoforma pueden ser:
 
