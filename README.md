@@ -11,7 +11,8 @@ Bienvenidas a la última versión del proyecto final realizado por Brenda Gonzal
 ## Objetivo
 Se realizará un análisis exploratorio de los glaciares, glaciares cubiertos, glaciares de escombro y manchones de nieve que se encuentran en la región de los Andes Desértivos, Argentina. El objetivo principal es obtener patrones de relación entre tipo de geoforma, ubicación, áreas, alturas, para así análizar las relaciones entre variables según cuencas, provincias, alturas, etc. 
 
-Resumir en una o dos líneas cuál es el objetivo general del proyecto: predecir algo, segmentar clientes, entender un fenómeno, etc..
+Realizar un análisis exploratorio de glaciares, glaciares cubiertos, glaciares de escombros y manchones de nieve presentes en la región de los Andes Desérticos, Argentina, con el fin de identificar patrones en relación con el tipo de geoforma, ubicación, área y altitud. Se buscará analizar las relaciones entre variables geográficas y morfológicas en función de cuencas hidrográficas, provincias y rangos altitudinales, entre otras.
+Este análisis servirá como base para una futura etapa de desarrollo de un modelo de machine learning capaz de clasificar los glaciares de acuerdo a su tamaño, altitud y pendiente, con el objetivo de detectar diferencias regionales y facilitar su caracterización automática, con la finalidad de que los modelos creados puedan aplicarse a conjuntos de datos de años consecutivos y así desarrollar series temporales que permitan analizar el comportamiento de los glaciares argentinos a lo largo del tiempo, lo cual b
 
 ## Integrantes
 
