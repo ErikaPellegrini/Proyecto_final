@@ -35,6 +35,19 @@ Hacer una breve lista de los principales archivos y carpetas del proyecto, por e
 
 Escribir un resumen de los pasos: limpieza, exploración, modelado supervisado y no supervisado, y qué técnicas o modelos principales se usaron.
 
+1. **Carga y visualización de datos**  
+Se importó el dataset en formato .csv desde GitHub y se realizó una inspección inicial para entender la estructura, la cantidad de datos y las características de los mismos.
+
+2. **Análisis de valores nulos**  
+
+3. **Eliminación de columnas irrelevantes o redundantes**  
+
+4. **Transformación de variables**  
+
+5. **Detección de outliers**  
+
+6. **Preparación del dataset para futuros análisis**  
+
 ## Herramientas utilizadas
 
 Acá listar las librerías principales de Python u otras herramientas que se usaron en el proyecto.
