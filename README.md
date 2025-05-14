@@ -27,9 +27,7 @@ Este análisis servirá como base para una futura etapa de desarrollo de un mode
 
 ### Descripción de carpetas y archivos
 
-- **dataset/**: Carpeta con el archivo `.csv` con los datos utilizados en el proyecto.
 - **glaciar_ing.csv**: Dataset original utilizado para el análisis.
-- **pre_entrega_2/**: Carpeta que incluye el script correspondiente a la segunda entrega del proyecto.
 - **pre_entrega_2.ipynb**: Script que realiza análisis exploratorio, limpieza y transformación de los datos.
 - **README.md**: Descripción general del proyecto.
   
