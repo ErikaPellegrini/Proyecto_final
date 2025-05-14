@@ -37,14 +37,14 @@ Indicar qué datos se usaron: nombre del dataset o fuente, link si corresponde, 
 
 ## Estructura del repositorio
 
-mi-proyecto
-├── /dataset                  #Carpeta que contiene el dataset del proyecto
-│   ├── glaciar_ing.csv.csv   #Dataset
-│ 
-├── /pre_entrega_2            #Carpeta con los archivos correspondientes a la Pre-entrega 2
-│   └── pre_entrega_2.py      #Script con análisis exploratorio, transformación y limpieza de los datos
-├── README.md                 #Archivo de descripción del proyecto
+### Descripción de carpetas y archivos
 
+- **dataset/**: Carpeta con el archivo `.csv` con los datos utilizados en el proyecto.
+-   **glaciar_ing.csv**: Dataset original utilizado para el análisis.
+- **pre_entrega_2/**: Carpeta que incluye el script correspondiente a la segunda entrega del proyecto.
+-   **pre_entrega_2.py**: Script que realiza análisis exploratorio, limpieza y transformación de los datos.
+- **README.md**: Descripción general del proyecto.
+- 
 ## Metodología
 
 1. **Carga y visualización de datos**  
