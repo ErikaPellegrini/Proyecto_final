@@ -11,7 +11,7 @@ Si bien el enfoque actual busca explorar las posibilidades de clasificación aut
 ## Objetivo
 Realizar un análisis exploratorio de glaciares, glaciares cubiertos, glaciares de escombros y manchones de nieve presentes en la región de los Andes Desérticos, Argentina, con el fin de identificar patrones en relación con el tipo de geoforma, ubicación, área y altitud. Se buscará analizar las relaciones entre variables geográficas y morfológicas en función de cuencas hidrográficas, provincias y rangos altitudinales, entre otras.
 
-Este análisis servirá como base para una futura etapa de desarrollo de un modelo de machine learning capaz de clasificar los glaciares de acuerdo a su tamaño, altitud y pendiente, con el objetivo de detectar diferencias regionales y facilitar su caracterización automática, con la finalidad de que los modelos creados puedan aplicarse a conjuntos de datos de años consecutivos y así desarrollar series temporales que permitan analizar el comportamiento de los glaciares argentinos a lo largo del tiempo, lo cual b
+Este análisis servirá como base para una futura etapa de desarrollo de un modelo de machine learning capaz de clasificar los glaciares de acuerdo a su tamaño, altitud y pendiente, con el objetivo de detectar diferencias regionales y facilitar su caracterización automática, con la finalidad de que los modelos creados puedan aplicarse a conjuntos de datos de años consecutivos y así desarrollar series temporales que permitan analizar el comportamiento de los glaciares argentinos a lo largo del tiempo.
 
 ## Integrantes
 
