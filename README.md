@@ -33,24 +33,36 @@ Hacer una breve lista de los principales archivos y carpetas del proyecto, por e
 
 ## Metodología
 
-Escribir un resumen de los pasos: limpieza, exploración, modelado supervisado y no supervisado, y qué técnicas o modelos principales se usaron.
-
 1. **Carga y visualización de datos**  
 Se importó el dataset en formato .csv desde GitHub y se realizó una inspección inicial para entender la estructura, la cantidad de datos y las características de los mismos.
 
 2. **Análisis de valores nulos**  
+Se identificaron y analizaron los features con valores faltantes, imputándose los datos mediante diversas estrategias que se analizaron para cada caso.
 
-3. **Eliminación de columnas irrelevantes o redundantes**  
-
-4. **Transformación de variables**  
+4. **Eliminación de columnas irrelevantes o redundantes**  
+Se eliminaron features no informativos o que no aportaban valor al análisis posterior.
 
 5. **Detección de outliers**  
+Se utilizaron métodos estadísticos como el rango intercuartílico (IQR) para identificar valores atípicos en cada feature, luego se procedió a eliminar los outliers por el método del puntaje Z (z-score).
 
-6. **Preparación del dataset para futuros análisis**  
+6. **Transformación de variables**  
+Se aplicó la técnica de binning, al agrupar valores continuos en categorías ("bins")
+
+7. **Análisis de correlación**  
+El análisis de correlación se llevó a cabo por medio de una  matriz de correlación numérica y mediante observaciones gráficas.
+
+8. **Visualización**  
+Se realizaron diversos gráficos del dataset "limpio" para lograr una mejor representación y entendimiento de los datos.
 
 ## Herramientas utilizadas
 
-Acá listar las librerías principales de Python u otras herramientas que se usaron en el proyecto.
+Librerías:
+- `pandas`  : Para la manipulación y análisis de datos.
+- `numpy`   : Para operaciones numéricas y funciones matemáticas.
+- `matplotlib` : Para la creación de gráficos y visualizaciones.
+- `seaborn` : Para gráficos estadísticos y visualizaciones avanzadas.
+- `scipy`   : Para funciones estadísticas.
+- `scikit-learn` : Para procesamiento de datos.
 
 ## Glosario de los features
 A continuación se detallan los 37 campos que componen la base de datos.
