@@ -37,7 +37,7 @@ Indicar qué datos se usaron: nombre del dataset o fuente, link si corresponde, 
 
 ## Estructura del repositorio
 
-/mi-proyecto
+mi-proyecto
 ├── /dataset                  #Carpeta que contiene el dataset del proyecto
 │   ├── glaciar_ing.csv.csv   #Dataset
 │ 
