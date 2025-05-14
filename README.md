@@ -2,6 +2,12 @@
 Bienvenidas a la última versión del proyecto final realizado por Brenda Gonzalez y Erika Pellegrini. Cualquier sugerencia es bien recibida.
 
 ## Introducción
+Este trabajo se enmarca como un estudio que busca posibilitar el desarrollo de herramientas que faciliten y mejoren el análisis de datos glaciares argentinos, contribuyendo a la disponibilidad de información precisa y relevante. De este modo, se espera aportar un apoyo para la toma de decisiones en políticas de conservación y gestión de recursos hídricos, lo cual es de vital importancia en un contexto donde el comportamiento glaciar en el tiempo es dinámico, con variaciones de datos morfológicos en el tiempo,  consecuencia del retroceso glaciar dado por el cambio climático.
+
+En particular, el  proyecto está enfocado en el análisis de datos del Inventario Nacional de Glaciares (ING) con el objetivo inicial de aplicar técnicas de Machine Learning para detectar patrones que permitan identificar los tipos de glaciares en la región de los Andes Desérticos del territorio argentino. 
+
+Si bien el enfoque actual busca explorar las posibilidades de clasificación automática a partir de variables en el dataset seleccionado, como superficie, ubicación y otros atributos físicos de una región en particular, el proyecto brinda las bases para que, en el futuro, los modelos desarrollados puedan ser aplicados a datasets de diferentes localizaciones y momentos en el tiempo. 
+
 - Escribirlo cuando ya tengamos la 2da pre-entrega (casi) terminada.
 - A partir del dataset descargado del Inventario Nacional de Glaciares (ING) 
 - con la finalidad de que los modelos generados a partir de ML puedan ser utilizados con datasets que involucren años consecutivos para poder desarrollar series de tiempo que permitan analizar el comportamiento de los glaciares argentinos a lo largo de los años a partir del cambio climático.
@@ -10,6 +16,7 @@ Bienvenidas a la última versión del proyecto final realizado por Brenda Gonzal
 
 ## Objetivo
 Se realizará un análisis exploratorio de los glaciares, glaciares cubiertos, glaciares de escombro y manchones de nieve que se encuentran en la región de los Andes Desérticos, Argentina. El objetivo principal es obtener patrones de relación entre tipo de geoforma, ubicación, áreas, alturas, para así análizar las relaciones entre variables según cuencas, provincias, alturas, etc. 
+
 LO REEMPLAZARIA POR:
 Realizar un análisis exploratorio de glaciares, glaciares cubiertos, glaciares de escombros y manchones de nieve presentes en la región de los Andes Desérticos, Argentina, con el fin de identificar patrones en relación con el tipo de geoforma, ubicación, área y altitud. Se buscará analizar las relaciones entre variables geográficas y morfológicas en función de cuencas hidrográficas, provincias y rangos altitudinales, entre otras.
 
