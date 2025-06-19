@@ -13,7 +13,7 @@ Si bien el objetivo de este trabajo busca explorar las posibilidades de clasific
 
 - Predecir características glaciares no medidas, como la altura mínima o la clasificación primaria, a partir de variables morfológicas y geográficas observadas.
 
--Entender los controles ambientales que influyen en la distribución de los glaciares y geoformas relacionadas en la región, analizando su relación con variables como altitud, pendiente y ubicación geográfica.
+- Entender los controles ambientales que influyen en la distribución de los glaciares y geoformas relacionadas en la región, analizando su relación con variables como altitud, pendiente y ubicación geográfica.
 
 - Grupo 7
 - Integrantes: Brenda Gonzalez y Erika Pellegrini
