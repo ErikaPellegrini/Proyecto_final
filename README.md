@@ -9,10 +9,11 @@ En particular, el  proyecto está enfocado en el análisis de datos del Inventar
 Si bien el objetivo de este trabajo busca explorar las posibilidades de clasificación automática utilizando técnicas de Machine Learning a partir de variables en el dataset seleccionado, como área, orientación, pendiente y otros atributos físicos de una región en particular. El proyecto brinda las bases para que, en el futuro, los modelos desarrollados puedan ser aplicados a geoformas glaciares y periglaciares de diferentes localizaciones. 
 
 ## Objetivo
-Realizar un análisis exploratorio de glaciares (GD), glaciares cubiertos (GC), glaciares de escombros(GE) y manchones de nieve (MN) presentes en la región de los Andes Desérticos con el fin de identificar patrones en relación con el tipo de geoforma, ubicación, área y altitud. Se buscará analizar las relaciones entre variables geográficas y morfológicas en función de cuencas hidrográficas, provincias y rangos altitudinales, entre otras.
+- Realizar un análisis exploratorio de glaciares (GD), glaciares cubiertos (GC), glaciares de escombros(GE) y manchones de nieve (MN) presentes en la región de los Andes Desérticos con el fin de identificar patrones en relación con el tipo de geoforma, ubicación, área y altitud. Se buscará analizar las relaciones entre variables geográficas y morfológicas en función de cuencas hidrográficas, provincias y rangos altitudinales, entre otras.
 
-Este análisis servirá como base para una futura etapa de desarrollo de un modelo de machine learning capaz de clasificar los glaciares de acuerdo a su tamaño, altitud y pendiente, con el objetivo de detectar diferencias regionales y facilitar su caracterización automática, con la finalidad de que los modelos creados puedan aplicarse a diferentes conjuntos de datos y que permitan analizar el comportamiento de los glaciares en Argentina y otras partes del mundo.
-## Integrantes
+- Predecir características glaciares no medidas, como la altura mínima o la clasificación primaria, a partir de variables morfológicas y geográficas observadas.
+
+-Entender los controles ambientales que influyen en la distribución de los glaciares y geoformas relacionadas en la región, analizando su relación con variables como altitud, pendiente y ubicación geográfica.
 
 - Grupo 7
 - Integrantes: Brenda Gonzalez y Erika Pellegrini
