@@ -27,9 +27,12 @@ Este análisis servirá como base para una futura etapa de desarrollo de un mode
 
 ### Descripción de carpetas y archivos
 
-- **glaciar_ing.csv**: Dataset original utilizado para el análisis.
+- **glaciar_ing.csv**: Dataset original utilizado para el análisis de la pre-entrega 2.
+- **Glaciares_final.csv**: Dataset original utilizado para el análisis de la pre-entrega 3.
 - **pre_entrega_2.ipynb**: Script que realiza análisis exploratorio, limpieza y transformación de los datos.
+- **pre_entrega_3.ipynb**: Script que aplica un modelo de aprendizaje supervisado.
 - **README.md**: Descripción general del proyecto.
+
   
 ## Metodología
 
@@ -53,6 +56,9 @@ El análisis de correlación se llevó a cabo por medio de una  matriz de correl
 
 8. **Visualización**  
 Se realizaron diversos gráficos del dataset "limpio" para lograr una mejor representación y entendimiento de los datos.
+
+9.  **Modelo supervisado**
+Se aplicaron dos métodos de aprendizaje supervisado: Random Forest y K-Nearest Neighbors (KNN), con el objetivo de predecir la clasificación primaria y la altura mínima total de los glaciares.
 
 ## Herramientas utilizadas
 
