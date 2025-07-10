@@ -31,6 +31,7 @@ Este análisis servirá como base para una futura etapa de desarrollo de un mode
 - **Glaciares_final.csv**: Dataset original utilizado para el análisis de la pre-entrega 3.
 - **pre_entrega_2.ipynb**: Script que realiza análisis exploratorio, limpieza y transformación de los datos.
 - **pre_entrega_3.ipynb**: Script que aplica un modelo de aprendizaje supervisado.
+- **pre_entrega_4.ipynb**: Script que aplica un modelo de aprendizaje no supervisado.
 - **README.md**: Descripción general del proyecto.
 
   
