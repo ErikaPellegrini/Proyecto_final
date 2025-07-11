@@ -32,7 +32,6 @@ Si bien el objetivo de este trabajo busca explorar las posibilidades de clasific
 - **Glaciares_final.csv**: Dataset original utilizado para el análisis de la pre-entrega 3.
 - **pre_entrega_2.ipynb**: Script que realiza análisis exploratorio, limpieza y transformación de los datos.
 - **pre_entrega_3.ipynb**: Script que aplica un modelo de aprendizaje supervisado.
-- **pre_entrega_4.ipynb**: Script que aplica al análisis exploratorio de los datos y un modelo de aprendizaje no supervisado.
 - **README.md**: Descripción general del proyecto.
 
   
@@ -61,9 +60,6 @@ Se realizaron diversos gráficos del dataset "limpio" para lograr una mejor repr
 
 9.  **Modelo supervisado**
 Se aplicaron dos métodos de aprendizaje supervisado: Random Forest y K-Nearest Neighbors (KNN), con el objetivo de predecir la clasificación primaria y la altura mínima total de los glaciares.
-
-10.  **Modelo no supervisado**
-Se aplicaron dos métodos de aprendizaje no supervisado: K-means y DBSCAN, con el objetivo de grupos o clusters relevantes en los diferentes features y para los features "altura máxima total" y "Latitud".
 
 ## Herramientas utilizadas
 
