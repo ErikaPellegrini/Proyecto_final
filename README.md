@@ -4,7 +4,7 @@ Bienvenidas a la última versión del proyecto final realizado por Brenda Gonzal
 ## Introducción
 Este trabajo busca posibilitar el desarrollo de herramientas que faciliten y mejoren el análisis de datos provenientes de geoformas glaciares y periglaciares; contribuyendo a la disponibilidad de información precisa y relevante. Los glaciares son cuerpos dinámicos, con variaciones temporales a corto y mediano plazo, lo que los vuelven muy vulnerables a la pérdida de masa producto del aumento de la temperatura a nivel global. Al ser importantes reservorios de agua dulce, se espera aportar a la toma de decisiones en políticas de conservación y gestión de recursos hídricos lo cual es de vital importancia en un contexto de cambio climático.
 
-En particular, el  proyecto está enfocado en el análisis de datos del Inventario Nacional de Glaciares (ING) con el objetivo inicial de aplicar técnicas de Machine Learning para detectar patrones que permitan identificar los tipos de glaciares en la región de los Andes Desérticos en Argentina. Los Andes Desérticos engloban a las provincias de Salta, Jujuy, Tucumán, Catamarca, La Rioja y San Juan.
+En particular, el  proyecto está enfocado en el análisis de datos del Inventario Nacional de Glaciares (ING) con el objetivo inicial de aplicar técnicas de Machine Learning para detectar patrones que permitan identificar patrones geoformas glaciares y periglaciares en la región de los Andes Desérticos en Argentina. Los Andes Desérticos engloban a las provincias de Salta, Jujuy, Tucumán, Catamarca, La Rioja y San Juan.
 
 Si bien el objetivo de este trabajo busca explorar las posibilidades de clasificación automática utilizando técnicas de Machine Learning a partir de variables en el dataset seleccionado, como área, orientación, pendiente y otros atributos físicos de una región en particular. El proyecto brinda las bases para que, en el futuro, los modelos desarrollados puedan ser aplicados a geoformas glaciares y periglaciares de diferentes localizaciones. 
 
@@ -12,17 +12,15 @@ Si bien el objetivo de este trabajo busca explorar las posibilidades de clasific
 - Realizar un análisis exploratorio de glaciares (GD), glaciares cubiertos (GC), glaciares de escombros(GE) y manchones de nieve (MN) presentes en la región de los Andes Desérticos con el fin de identificar patrones en relación con el tipo de geoforma, ubicación, área y altitud. Se buscará analizar las relaciones entre variables geográficas y morfológicas en función de cuencas hidrográficas, provincias y rangos altitudinales, entre otras.
 
 - Predecir características glaciares no medidas, como la altura mínima o la clasificación primaria, a partir de variables morfológicas y geográficas observadas.
-  
-- Entender los controles ambientales que influyen en la distribución de los glaciares y geoformas relacionadas en la región, analizando su relación con variables como altitud, pendiente y ubicación geográfica.
 
-## Integrantes
+- Entender los controles ambientales que influyen en la distribución de los glaciares y geoformas relacionadas en la región, analizando su relación con variables como altitud, pendiente y ubicación geográfica.
 
 - Grupo 7
 - Integrantes: Brenda Gonzalez y Erika Pellegrini
 
 ## Dataset utilizado
 
-- La página oficial del Inventario Nacional de Glaciares (ING) contiene el primer inventario generado (2018) y una actualización (2024). La elección del dataset llamado *glaciar_ing* se realizó en base al año en el que fueron obtenidos los datos, dandole prioridad a la información más actualizada. La región de los Andes Desérticos fue la única zona que tenía la actualización del 2024. Estos datos corresponden a las provincias de Salta, Jujuy, Catamarca, La Rioja, Tucumán y San Juan.
+- La página oficial del Inventario Nacional de Glaciares (ING) contiene el primer inventario generado (2018) y una actualización (2024). La elección del dataset llamado *glaciar_ing* se realizó en base al año en el que fueron obtenidos los datos, dandole prioridad a la información más actualizada. La región de los Andes Desérticos fue la única zona que actualizada en el 2024. Estos datos corresponden a las provincias de Salta, Jujuy, Catamarca, La Rioja, Tucumán y San Juan.
 - link de acceso al dataset: https://www.glaciaresargentinos.gob.ar/
 - Se utilizó el diccionario de datos que se encuentra en el link proporcionado junto con el dataset. Los puntos más importantes del diccionario se detallan en el apartado "Glosario" dentro de este readme.
 
@@ -34,6 +32,7 @@ Si bien el objetivo de este trabajo busca explorar las posibilidades de clasific
 - **Glaciares_final.csv**: Dataset original utilizado para el análisis de la pre-entrega 3.
 - **pre_entrega_2.ipynb**: Script que realiza análisis exploratorio, limpieza y transformación de los datos.
 - **pre_entrega_3.ipynb**: Script que aplica un modelo de aprendizaje supervisado.
+- **pre_entrega_4.ipynb**: Script que aplica al análisis exploratorio de los datos y un modelo de aprendizaje no supervisado.
 - **README.md**: Descripción general del proyecto.
 
   
@@ -62,6 +61,9 @@ Se realizaron diversos gráficos del dataset "limpio" para lograr una mejor repr
 
 9.  **Modelo supervisado**
 Se aplicaron dos métodos de aprendizaje supervisado: Random Forest y K-Nearest Neighbors (KNN), con el objetivo de predecir la clasificación primaria y la altura mínima total de los glaciares.
+
+10.  **Modelo no supervisado**
+Se aplicaron dos métodos de aprendizaje no supervisado: K-means y DBSCAN, con el objetivo de grupos o clusters relevantes en los diferentes features y para los features "altura máxima total" y "Latitud".
 
 ## Herramientas utilizadas
 
@@ -183,3 +185,4 @@ los hubiere) Se expresa en metros sobre el nivel del mar (msnm).
 
 23. H_med_parcial: Altura media de los polígonos que conforman cada unidad (si
 los hubiere) Se expresa en metros sobre el nivel del mar (msnm).
+
